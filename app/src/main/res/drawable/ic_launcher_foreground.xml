@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Glass Notepad Card -->
+    <path
+        android:fillColor="#26FFFFFF"
+        android:strokeColor="#8038BDF8"
+        android:strokeWidth="2.2"
+        android:pathData="M32,26 C32,22.68 34.68,20 38,20 L70,20 C73.31,20 76,22.68 76,26 L76,82 C76,85.31 73.31,88 70,88 L38,88 C34.68,88 32,85.31 32,82 Z" />
+    <!-- Note Lines -->
+    <path
+        android:strokeColor="#CC94A3B8"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M40,36 L58,36 M40,46 L54,46" />
+    <!-- Glowing Equals Sign Badge -->
+    <path
+        android:strokeColor="#FF38BDF8"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M42,64 L66,64 M42,74 L66,74" />
+</vector>
