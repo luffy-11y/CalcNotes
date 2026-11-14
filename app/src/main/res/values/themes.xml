@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base AppCompat theme required by FragmentActivity & BiometricPrompt -->
+    <style name="Theme.CalcNotes" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Android 12+ SplashScreen API theme -->
+    <style name="Theme.CalcNotes.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0D101E</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.CalcNotes</item>
+    </style>
+</resources>
